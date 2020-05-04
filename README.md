@@ -22,5 +22,5 @@ The solution uses the previous contraints to recursively find all truncatable pr
 ## Usage
 Simply run `truncatableprimes.jl` as a Julia script:
 ```
->> julia truncatableprimes.jl
+$ julia truncatableprimes.jl
 ```
