@@ -17,7 +17,7 @@ Moreover the values `2` and `5` can only be found as the left-most digit for the
 
 In conclusion every truncatable prime must be of the form `a_1 a_2 ... a_n` where `a_n in {3, 7}`, `a_1 in {1, 2, 3, 5, 7, 9}` and `a_i in {1, 3, 7, 9} for 1 < i < n`.
 
-The solution uses the previous contraints to recursively find all truncatable primes. An interesting fact is tha with this method we don't have to use the information of the problem about the number of truncatable primes (11) since we can bound the search so that the algorithm will surely reach to an end.
+The solution uses the previous contraints to recursively find all truncatable primes. An interesting fact is that with this method we don't have to use the information of the problem about the number of truncatable primes (11) since we can bound the search so that the algorithm will surely reach to an end.
 
 ## Usage
 Simply run `truncatableprimes.jl` as a Julia script:
