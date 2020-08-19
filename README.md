@@ -7,7 +7,7 @@
 > NOTE: 2, 3, 5, and 7 are not considered to be truncatable primes.
 
 ## Solution
-To find truncatable primes we can start from a single digit and continuously append to the the left new digits until the number we get is not a prime (e.g. `3 -> 13 -> 313` -> `3313`, `3313` is not prime, we stop to `313`).
+To find truncatable primes we can start from a single digit and continuously append to the the left new digits until the number we get is not a prime (e.g. `3 -> 13 -> 313 -> 3313`, `3313` is not prime, we stop to `313`).
 This way we find a sequence of numbers that are left-truncatable primes, meaning that removing left digits one by one, we always get prime numbers.
 When we found a left-truncatable prime we must check that it is also a right-truncatable prime (removing digits from right to left we always get prime numbers).
 
